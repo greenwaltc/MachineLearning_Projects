@@ -1,0 +1,7 @@
+@RELATION neural_net_test
+@ATTRIBUTE x1 numeric
+@ATTRIBUTE x2 numeric
+@ATTRIBUTE y1 numeric
+@ATTRIBUTE y2 numeric
+@DATA
+0.3,0.7,0.1,1.0
