@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="mba_p <= 0.5\nsamples = 118\nvalue = [96, 16, 4, 1, 1]"] ;
+1 [label="workex <= 0.5\n47\n[44, 3, 0, 0, 0]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="hsc_b <= 0.5\n31\n[30, 1, 0, 0, 0]"] ;
+1 -> 2 ;
+3 [label="(...)"] ;
+2 -> 3 ;
+8 [label="(...)"] ;
+2 -> 8 ;
+9 [label="hsc_s <= 1.5\n16\n[14, 2, 0, 0, 0]"] ;
+1 -> 9 ;
+10 [label="(...)"] ;
+9 -> 10 ;
+11 [label="(...)"] ;
+9 -> 11 ;
+18 [label="gender <= 0.5\n71\n[52, 13, 4, 1, 1]"] ;
+0 -> 18 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+19 [label="workex <= 0.5\n32\n[28, 3, 0, 1, 0]"] ;
+18 -> 19 ;
+20 [label="(...)"] ;
+19 -> 20 ;
+33 [label="(...)"] ;
+19 -> 33 ;
+38 [label="etest_p <= 0.5\n39\n[24, 10, 4, 0, 1]"] ;
+18 -> 38 ;
+39 [label="(...)"] ;
+38 -> 39 ;
+44 [label="(...)"] ;
+38 -> 44 ;
+}
